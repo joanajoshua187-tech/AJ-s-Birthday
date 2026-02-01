@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Last Click Before America</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      min-height: 100vh;
+      background: linear-gradient(135deg, #ffe0ee, #fff2f8);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Poppins', sans-serif;
+      color: #5a2a42;
+    }
+
+    .page {
+      background: rgba(255, 255, 255, 0.9);
+      padding: 3rem 2.5rem;
+      border-radius: 28px;
+      max-width: 460px;
+      text-align: center;
+      box-shadow: 0 26px 55px rgba(255, 182, 193, 0.45);
+      animation: fadeIn 1.5s ease;
+    }
+
+    .polaroid {
+      background: #fff;
+      padding: 1rem 1rem 1.6rem;
+      border-radius: 18px;
+      box-shadow: 0 12px 28px rgba(0, 0, 0, 0.08);
+      margin-bottom: 2rem;
+    }
+
+    .caption h3 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.6rem;
+      color: #b23a6f;
+      margin-bottom: 1rem;
+    }
+
+    .polaroid img {
+      width: 100%;
+      max-width: 230px;
+      border-radius: 14px;
+    }
+
+    h4 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.45rem;
+      margin-bottom: 1.2rem;
+      color: #8b1d4a;
+    }
+
+    p {
+      font-size: 0.95rem;
+      line-height: 1.8;
+      margin-bottom: 1.6rem;
+    }
+
+    .special-text {
+      font-style: italic;
+      color: #7a1f47;
+      margin-bottom: 2rem;
+    }
+
+    .joke-btn {
+      border: none;
+      padding: 0.7rem 1.6rem;
+      border-radius: 30px;
+      background: linear-gradient(135deg, #ff9ecf, #ff6fae);
+      color: white;
+      font-size: 0.85rem;
+      cursor: pointer;
+      box-shadow: 0 8px 18px rgba(255, 111, 174, 0.45);
+      margin-bottom: 1.8rem;
+      transition: all 0.3s ease;
+    }
+
+    .joke-btn:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 12px 25px rgba(255, 111, 174, 0.6);
+    }
+
+    .quote {
+      font-family: 'Playfair Display', serif;
+      font-size: 1rem;
+      color: #7a1f47;
+      margin-bottom: 2rem;
+    }
+
+    .next-btn {
+      display: inline-block;
+      text-decoration: none;
+      padding: 0.75rem 1.9rem;
+      border-radius: 30px;
+      background: linear-gradient(135deg, #ff7eb3, #ff4f9a);
+      color: white;
+      font-size: 0.9rem;
+      font-weight: 500;
+      box-shadow: 0 10px 22px rgba(255, 79, 154, 0.45);
+      transition: all 0.3s ease;
+    }
+
+    .next-btn:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 14px 30px rgba(255, 79, 154, 0.6);
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="page fade-in">
+
+    <div class="polaroid">
+      <div class="caption">
+        <h3>The Last Click Before America ✈️💗</h3>
+      </div>
+      <img src="photo3.jpg" alt="Last photo together">
+    </div>
+
+    <h4>The Day You Captured My Heart 📸💞</h4>
+
+    <p>
+      This is the last photo we took before you flew to the US.<br>
+      You said, <i>“Let me take one of you,”</i> and clicked this masterpiece.<br>
+      It’s still my favorite picture.<br>
+      Even oceans apart, every time I unlock my phone and visit our memories,<br>
+      I feel you right here with me 🌍💗
+    </p>
+
+    <p class="special-text">
+      ✨ “Some people laugh with you,  
+      some people laugh through you —  
+      you were the kind that made heavy days lighter  
+      without even trying.” 💕🌷
+    </p>
+
+    <button 
+      class="joke-btn"
+      onclick="alert('You said: I’m taking this photo so you don’t forget my amazing photography skills when I’m famous 😂📸')">
+      Inside Joke ♡
+    </button>
+
+    <p class="quote">
+      “Distance means nothing when someone means everything.” 💌
+    </p>
+
+    <a href="page4.html" class="next-btn">Next Memory →</a>
+
+  </div>
+</body>
+</html>

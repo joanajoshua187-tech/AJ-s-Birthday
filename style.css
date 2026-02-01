@@ -1,0 +1,120 @@
+/* css/style.css – Fixed & Perfect */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  background: linear-gradient(135deg, white, pink );
+  min-height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  padding: 20px;
+  background-image: url('../images/bg-hearts.png');
+  background-size: 600px;
+  background-repeat: repeat;
+}
+
+.page {
+  max-width: 860px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 40px 15px;
+}
+
+h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 3.8rem;
+  color: red ;
+  margin: 25px 0;
+  text-shadow: 0 3px 10px rgba(197, 17, 98, 0.2);
+}
+
+p {
+  font-size: 1.35rem;
+  line-height: 1.8;
+  color: blueviolet;
+  max-width: 680px;
+  margin: 22px auto;
+}
+
+.polaroid {
+  background: white;
+  padding: 14px 14px 50px 14px;
+  border-radius: 16px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.18);
+  display: inline-block;
+  margin: 30px;
+  transform: rotate(-4deg);
+  animation: float 8s ease-in-out infinite;
+}
+
+.polaroid img {
+  width: 100%;
+  max-width: 460px;
+  border-radius: 10px;
+  display: block;
+}
+
+.caption {
+  font-family: 'Dancing Script', 'cursive';
+  font-size: 2.1rem;
+  color: pink;
+  margin-top: 18px;
+}
+
+.quote {
+  font-style: italic;
+  color: pink;
+  font-size: 1.5rem;
+  margin: 50px auto 30px;
+  max-width: 620px;
+}
+
+.next-btn {
+  display: inline-block;
+  padding: 18px 50px;
+  background: linear-gradient(45deg, red, pink);
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 50px;
+  margin-top: 20px;
+  box-shadow: 0 10px 25px rgba(245, 0, 87, 0.4);
+  transition: all 0.4s;
+}
+
+.next-btn:hover {
+  transform: translateY(-8px) scale(1.05);
+  box-shadow: 0 20px 40px rgba(245, 0, 87, 0.5);
+}
+
+.joke-btn {
+  margin: 35px 12px;
+  padding: 14px 35px;
+  background: yellowgreen;
+  color: brown;
+  border: none;
+  border-radius: 50px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  cursor: pointer;
+  box-shadow: 0 8px 20px rgba(255, 235, 59, 0.4);
+  transition: all 0.3s;
+}
+
+.joke-btn:hover {
+  background: yellowgreen;
+  transform: scale(1.1);
+}
+
+.fade-in {
+  animation: fadeIn 1.8s ease-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(40px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes float {
+  0%, 100%   { transform: translateY(0) rotate(-4deg); }
+  50%        { transform: translateY(-25px) rotate(4deg); }
+}

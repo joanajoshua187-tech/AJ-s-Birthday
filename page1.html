@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Memory 1</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      min-height: 100vh;
+      background: linear-gradient(135deg, #ffe1ef, #fff0f7);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Poppins', sans-serif;
+      color: #5a2a42;
+    }
+
+    .page {
+      background: rgba(255, 255, 255, 0.88);
+      padding: 3rem 2.5rem;
+      border-radius: 26px;
+      max-width: 460px;
+      text-align: center;
+      box-shadow: 0 25px 50px rgba(255, 182, 193, 0.45);
+      animation: fadeIn 1.5s ease;
+    }
+
+    h3 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.6rem;
+      color: #b23a6f;
+      margin-bottom: 1.5rem;
+    }
+
+    .polaroid {
+      background: #fff;
+      padding: 1rem 1rem 1.5rem;
+      border-radius: 18px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+      margin-bottom: 2rem;
+    }
+
+    .polaroid img {
+      width: 100%;
+      max-width: 220px;
+      border-radius: 14px;
+      margin-top: 0.8rem;
+    }
+
+    p {
+      font-size: 0.95rem;
+      line-height: 1.8;
+      margin-bottom: 1.6rem;
+    }
+
+    .special-text {
+      font-style: italic;
+      color: #8b1d4a;
+      margin-bottom: 2rem;
+    }
+
+    .joke-btn {
+      border: none;
+      padding: 0.7rem 1.6rem;
+      border-radius: 30px;
+      background: linear-gradient(135deg, #ff9ecf, #ff6fae);
+      color: white;
+      font-size: 0.85rem;
+      cursor: pointer;
+      box-shadow: 0 8px 18px rgba(255, 111, 174, 0.45);
+      margin-bottom: 1.8rem;
+      transition: all 0.3s ease;
+    }
+
+    .joke-btn:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 12px 25px rgba(255, 111, 174, 0.6);
+    }
+
+    .quote {
+      font-family: 'Playfair Display', serif;
+      font-size: 1rem;
+      color: #7a1f47;
+      margin-bottom: 2rem;
+    }
+
+    .next-btn {
+      display: inline-block;
+      text-decoration: none;
+      padding: 0.75rem 1.9rem;
+      border-radius: 30px;
+      background: linear-gradient(135deg, #ff7eb3, #ff4f9a);
+      color: white;
+      font-size: 0.9rem;
+      font-weight: 500;
+      box-shadow: 0 10px 22px rgba(255, 79, 154, 0.45);
+      transition: all 0.3s ease;
+    }
+
+    .next-btn:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 14px 30px rgba(255, 79, 154, 0.6);
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="page fade-in">
+
+    <div class="polaroid">
+      <h3>The Day We Met Again & Everything Felt Right 💕🍦</h3>
+      <img src="photo1.jpg" alt="Ice cream day">
+    </div>
+
+    <p>
+      After years apart, we finally met and chose ice cream as our reunion spot 🍨✨<br>
+      Two giant freak-shakes, zero chill, and a million stories to catch up on.<br>
+      I looked at you making that peace sign and thought:<br>
+      <b>“Yep… this girl is still my home.” 🏡💗</b><br>
+      That day healed every mile that had ever been between us.
+    </p>
+
+    <p class="special-text">
+      🌸 “You saw me in a season when I was still becoming myself,  
+      and you stayed kind while I figured things out.  
+      That meant more than I ever said out loud.” 💖✨
+    </p>
+
+    <button 
+      class="joke-btn" 
+      onclick="alert('Remember when we almost got brain freeze together and you said: This is what true love feels like? 😂💗')">
+      Inside Joke ♡
+    </button>
+
+    <p class="quote">
+      “Some people make the world special just by being in it.  
+      <br>You are that person for me.” 🌷
+    </p>
+
+    <a href="page2.html" class="next-btn">Next Memory →</a>
+
+  </div>
+</body>
+</html>

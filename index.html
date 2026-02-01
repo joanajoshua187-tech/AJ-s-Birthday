@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday Agape</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      min-height: 100vh;
+      background: linear-gradient(135deg, #ffd6e8, #ffeaf3);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Poppins', sans-serif;
+      color: #5a2a42;
+    }
+
+    .page {
+      background: rgba(255, 255, 255, 0.85);
+      padding: 3rem 2.5rem;
+      border-radius: 24px;
+      max-width: 420px;
+      text-align: center;
+      box-shadow: 0 20px 40px rgba(255, 182, 193, 0.4);
+      animation: fadeIn 1.5s ease;
+    }
+
+    .caption h3 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.6rem;
+      margin-bottom: 1.5rem;
+      color: #b23a6f;
+    }
+
+    h4 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.8rem;
+      margin-bottom: 1.2rem;
+      color: #8b1d4a;
+    }
+
+    p {
+      font-size: 0.95rem;
+      line-height: 1.8;
+      margin-bottom: 2rem;
+    }
+
+    .next-btn {
+      display: inline-block;
+      text-decoration: none;
+      padding: 0.75rem 1.8rem;
+      border-radius: 30px;
+      background: linear-gradient(135deg, #ff7eb3, #ff4f9a);
+      color: white;
+      font-size: 0.9rem;
+      font-weight: 500;
+      box-shadow: 0 8px 20px rgba(255, 79, 154, 0.4);
+      transition: all 0.3s ease;
+    }
+
+    .next-btn:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 12px 25px rgba(255, 79, 154, 0.55);
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="page fade-in">
+    <div class="caption">
+      <h3>To my soul sister, Agape 💕</h3>
+    </div>
+
+    <h4>Happy Birthday, Agape! 🎂</h4>
+
+    <p>
+      I’ve known you since Form 3,<br>
+      we’ve cried over exams together,<br>
+      laughed until we couldn’t breathe,<br>
+      survived long distance,<br>
+      and you still chose me every day.
+    </p>
+
+    <a href="page1.html" class="next-btn">Open the book ♡</a>
+  </div>
+</body>
+</html>
